@@ -1,9 +1,15 @@
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    margin: 0 ; 
     
 }
+
+
+body{
+    font-family: "inter" ;
+}
+
+
+
 
 
 
@@ -14,12 +20,14 @@
     border-radius: 5px;
     cursor: pointer;
     transition: 0.3s ease;
+    border: none;
 }
 
 
 .btn:hover{
     background-color: white;
     color: black;
+    border: 1px solid black;
 }
 
 nav{
@@ -49,25 +57,19 @@ nav .nav-menu a{
 
 
 
-
-
-
-
-
-
-
-
-
-
 #hero{
-    background-image: url(../assets/hero-bg.png);
-    max-width: 1600px;
-    height: 674px;
-    align-items: center;
+    background-image: url("../assets/hero-bg.png");
+    min-height: calc(100vh - 92px);
+    width: 100%;
     background-position: center;
     background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
+    align-items: center;
 }
+
+
+
 
 
 .hero-container{
@@ -82,7 +84,7 @@ nav .nav-menu a{
 }
 
 #hero h1{
-    width: 670px;
+    width: 800px;
     height: 168px;
     color: white;
     font-size: 72px;
@@ -130,6 +132,7 @@ nav .nav-menu a{
 
 .btn-t:hover{
     background-color: #30B868;
+    border: none;
 
 }
 
